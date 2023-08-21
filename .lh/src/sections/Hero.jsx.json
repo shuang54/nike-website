@@ -1,0 +1,50 @@
+{
+    "sourceFile": "src/sections/Hero.jsx",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 8,
+            "patches": [
+                {
+                    "date": 1692627180090,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1692627187483,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -13,9 +13,9 @@\n         </h1>\n         <p>\n           Discover stylish Nike arrival, quality comfort, and innovation for your active life.\n         </p>\n-        <Button label=\"Show now\" iconURL/>\n+        <Button label=\"Show now\" iconURL={arrow}/>\n       </div>\n     </section>\n   )\n }\n"
+                },
+                {
+                    "date": 1692627211715,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,6 @@\n import Button from \"../components/Button\"\n-\n+import { arrowRight } from '../assets/icons'\n const Hero = () => {\n   return (\n     <section id=\"home\" className=\"w-full flex xl:flex-row flex-col justify-center min-h-screen gap-10 max-container\">\n       <div className=\" relative xl:w-2/5 flex flex-col justify-center items-center w-full max-xl:padding-x pt-28\">\n@@ -13,9 +13,9 @@\n         </h1>\n         <p>\n           Discover stylish Nike arrival, quality comfort, and innovation for your active life.\n         </p>\n-        <Button label=\"Show now\" iconURL={arrow}/>\n+        <Button label=\"Show now\" iconURL={arrowRight}/>\n       </div>\n     </section>\n   )\n }\n"
+                },
+                {
+                    "date": 1692627266432,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -13,9 +13,9 @@\n         </h1>\n         <p>\n           Discover stylish Nike arrival, quality comfort, and innovation for your active life.\n         </p>\n-        <Button label=\"Show now\" iconURL={arrowRight}/>\n+        <Button label=\"Shop now\" iconURL={arrowRight}/>\n       </div>\n     </section>\n   )\n }\n"
+                },
+                {
+                    "date": 1692627688581,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,7 @@\n import Button from \"../components/Button\"\n import { arrowRight } from '../assets/icons'\n+import {} from '../constants'\n const Hero = () => {\n   return (\n     <section id=\"home\" className=\"w-full flex xl:flex-row flex-col justify-center min-h-screen gap-10 max-container\">\n       <div className=\" relative xl:w-2/5 flex flex-col justify-center items-center w-full max-xl:padding-x pt-28\">\n"
+                },
+                {
+                    "date": 1692627695302,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,7 @@\n import Button from \"../components/Button\"\n import { arrowRight } from '../assets/icons'\n-import {} from '../constants'\n+import { statistics } from '../constants'\n const Hero = () => {\n   return (\n     <section id=\"home\" className=\"w-full flex xl:flex-row flex-col justify-center min-h-screen gap-10 max-container\">\n       <div className=\" relative xl:w-2/5 flex flex-col justify-center items-center w-full max-xl:padding-x pt-28\">\n"
+                },
+                {
+                    "date": 1692627773010,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -15,8 +15,10 @@\n         <p>\n           Discover stylish Nike arrival, quality comfort, and innovation for your active life.\n         </p>\n         <Button label=\"Shop now\" iconURL={arrowRight}/>\n+\n+        \n       </div>\n     </section>\n   )\n }\n"
+                },
+                {
+                    "date": 1692627783008,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -17,9 +17,9 @@\n         </p>\n         <Button label=\"Shop now\" iconURL={arrowRight}/>\n \n         <div>\n-          \n+          {statistics.map()}\n         </div>\n       </div>\n     </section>\n   )\n"
+                },
+                {
+                    "date": 1692627788699,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -17,9 +17,11 @@\n         </p>\n         <Button label=\"Shop now\" iconURL={arrowRight}/>\n \n         <div>\n-          {statistics.map()}\n+          {statistics.map(stat=>{\n+            \n+          })}\n         </div>\n       </div>\n     </section>\n   )\n"
+                }
+            ],
+            "date": 1692627180090,
+            "name": "Commit-0",
+            "content": "import Button from \"../components/Button\"\n\nconst Hero = () => {\n  return (\n    <section id=\"home\" className=\"w-full flex xl:flex-row flex-col justify-center min-h-screen gap-10 max-container\">\n      <div className=\" relative xl:w-2/5 flex flex-col justify-center items-center w-full max-xl:padding-x pt-28\">\n        <p>Our Summer Collection</p>\n        <h1>\n          <span>The New Arrival</span>\n          <br />\n          <span>Nike</span>\n           Shoes\n        </h1>\n        <p>\n          Discover stylish Nike arrival, quality comfort, and innovation for your active life.\n        </p>\n        <Button label=\"Show now\" iconURL/>\n      </div>\n    </section>\n  )\n}\n\nexport default Hero"
+        }
+    ]
+}

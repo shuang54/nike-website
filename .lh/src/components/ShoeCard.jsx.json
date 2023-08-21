@@ -1,0 +1,18 @@
+{
+    "sourceFile": "src/components/ShoeCard.jsx",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 0,
+            "patches": [
+                {
+                    "date": 1692628892507,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                }
+            ],
+            "date": 1692628892507,
+            "name": "Commit-0",
+            "content": "const ShoeCard = ({ imgURL, changeBigShoeImage, bigShoeImg }) => {\n  const handleClick = () => {\n    if (bigShoeImg !== imgURL.bigShoe) {\n      changeBigShoeImage(imgURL.bigShoe);\n    }\n  };\n\n  return (\n    <div\n      className={`border-2 rounded-xl ${\n        bigShoeImg === imgURL.bigShoe\n          ? \"border-coral-red\"\n          : \"border-transparent\"\n      } cursor-pointer max-sm:flex-1`}\n      onClick={handleClick}\n    >\n      <div className='flex justify-center items-center bg-card bg-center bg-cover sm:w-40 sm:h-40 rounded-xl max-sm:p-4'>\n        <img\n          src={imgURL.thumbnail}\n          alt='shoe colletion'\n          width={127}\n          height={103.34}\n          className='object-contain'\n        />\n      </div>\n    </div>\n  );\n};\n\nexport default ShoeCard;\n"
+        }
+    ]
+}

@@ -1,0 +1,42 @@
+{
+    "sourceFile": "src/components/Button.jsx",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 6,
+            "patches": [
+                {
+                    "date": 1692627246821,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1692627293158,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,9 @@\n const Button = ({label,iconURL}) => {\n   return (\n-    <button\n-    >\n-\n+    <button>\n+      {label}\n+      <img src=\"\" alt=\"\" />\n     </button>\n   )\n }\n \n"
+                },
+                {
+                    "date": 1692627303613,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,9 @@\n const Button = ({label,iconURL}) => {\n   return (\n     <button>\n       {label}\n-      <img src=\"\" alt=\"\" />\n+      <img src={iconURL} alt=\"\" />\n     </button>\n   )\n }\n \n"
+                },
+                {
+                    "date": 1692627314394,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,9 @@\n const Button = ({label,iconURL}) => {\n   return (\n     <button>\n       {label}\n-      <img src={iconURL} alt=\"\" />\n+      <img src={iconURL} alt=\"arrow right icon\" />\n     </button>\n   )\n }\n \n"
+                },
+                {
+                    "date": 1692627347168,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,9 @@\n const Button = ({label,iconURL}) => {\n   return (\n     <button>\n       {label}\n-      <img src={iconURL} alt=\"arrow right icon\" />\n+      <img src={iconURL} alt=\"arrow right icon\" className=\"\" />\n     </button>\n   )\n }\n \n"
+                },
+                {
+                    "date": 1692627358439,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,9 @@\n const Button = ({label,iconURL}) => {\n   return (\n     <button>\n       {label}\n-      <img src={iconURL} alt=\"arrow right icon\" className=\"ml-2 \" />\n+      <img src={iconURL} alt=\"arrow right icon\" className=\"ml-2 rounded-full\" />\n     </button>\n   )\n }\n \n"
+                },
+                {
+                    "date": 1692627429170,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,9 @@\n const Button = ({label,iconURL}) => {\n   return (\n     <button>\n       {label}\n-      <img src={iconURL} alt=\"arrow right icon\" className=\"ml-2 rounded-full\" />\n+      <img src={iconURL} alt=\"arrow right icon\" className=\"ml-2 rounded-full w-5 hh-5\" />\n     </button>\n   )\n }\n \n"
+                }
+            ],
+            "date": 1692627246821,
+            "name": "Commit-0",
+            "content": "const Button = ({label,iconURL}) => {\n  return (\n    <button\n    >\n\n    </button>\n  )\n}\n\nexport default Button"
+        }
+    ]
+}
