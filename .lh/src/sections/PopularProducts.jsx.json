@@ -1,0 +1,30 @@
+{
+    "sourceFile": "src/sections/PopularProducts.jsx",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 3,
+            "patches": [
+                {
+                    "date": 1692667666821,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1692667810330,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,11 @@\n import { products } from '../constants'\n \n const PopularProducts = () => {\n   return (\n-    <div>PopularProducts</div>\n+    <section>\n+      \n+    </section>\n   )\n }\n \n export default PopularProducts\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1692667816499,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,9 +2,11 @@\n \n const PopularProducts = () => {\n   return (\n     <section>\n-      <div></div>\n+      <div>\n+        <h2></h2>\n+      </div>\n     </section>\n   )\n }\n \n"
+                },
+                {
+                    "date": 1692667838477,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,9 @@\n import { products } from '../constants'\n \n const PopularProducts = () => {\n   return (\n-    <section id='products'>\n+    <section id='products' className=''>\n       <div>\n         <h2>Popular Products</h2>\n       </div>\n     </section>\n"
+                }
+            ],
+            "date": 1692667666820,
+            "name": "Commit-0",
+            "content": "import { products } from '../constants'\n\nconst PopularProducts = () => {\n  return (\n    <div>PopularProducts</div>\n  )\n}\n\nexport default PopularProducts"
+        }
+    ]
+}
