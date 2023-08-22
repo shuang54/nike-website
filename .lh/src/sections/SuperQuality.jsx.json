@@ -1,0 +1,50 @@
+{
+    "sourceFile": "src/sections/SuperQuality.jsx",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 8,
+            "patches": [
+                {
+                    "date": 1692670423075,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1692670432454,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,7 @@\n const SuperQuality = () => {\n   return (\n-    <section className=\"\">\n+    <section className=\"\" id=\"about_us\">\n     </section>\n   )\n }\n \n"
+                },
+                {
+                    "date": 1692670454321,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,13 @@\n const SuperQuality = () => {\n   return (\n-    <section className=\"\" id=\"about_us\">\n+    <section \n+    className=\"\n+    flex\n+    \n+    \" \n+    id=\"about_us\"\n+    >\n     </section>\n   )\n }\n \n"
+                },
+                {
+                    "date": 1692670461302,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,8 +2,9 @@\n   return (\n     <section \n     className=\"\n     flex\n+    justify-center\n     \n     \" \n     id=\"about_us\"\n     >\n"
+                },
+                {
+                    "date": 1692670473796,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,9 +2,10 @@\n   return (\n     <section \n     className=\"\n     flex\n-    justify-center\n+    justify-between\n+    items-start\n     \n     \" \n     id=\"about_us\"\n     >\n"
+                },
+                {
+                    "date": 1692670483681,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,9 +3,9 @@\n     <section \n     className=\"\n     flex\n     justify-between\n-    items-start\n+    items-center\n     \n     \" \n     id=\"about_us\"\n     >\n"
+                },
+                {
+                    "date": 1692670489632,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,8 +4,9 @@\n     className=\"\n     flex\n     justify-between\n     items-center\n+    max-lg:flex-col\n     \n     \" \n     id=\"about_us\"\n     >\n"
+                },
+                {
+                    "date": 1692670497100,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -6,8 +6,9 @@\n     justify-between\n     items-center\n     max-lg:flex-col\n     gap-10\n+    w-full\n     \n     \" \n     id=\"about_us\"\n     >\n"
+                },
+                {
+                    "date": 1692670535033,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -8,12 +8,12 @@\n     max-lg:flex-col\n     gap-10\n     w-full\n     max-container\n-    \n     \" \n     id=\"about_us\"\n     >\n+      \n     </section>\n   )\n }\n \n"
+                }
+            ],
+            "date": 1692670423075,
+            "name": "Commit-0",
+            "content": "const SuperQuality = () => {\n  return (\n    <section className=\"\">\n    </section>\n  )\n}\n\nexport default SuperQuality"
+        }
+    ]
+}
